@@ -87,11 +87,11 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="Axs-qk-U6d">
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Axs-qk-U6d">
                                         <frame key="frameInset" minY="844" width="728" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ry-wp-xqh">
-                                                <frame key="frameInset" width="339" height="50"/>
+                                                <frame key="frameInset" width="359" height="50"/>
                                                 <color key="backgroundColor" red="1" green="0.3411764706" blue="0.3294117647" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="WZO-d6-G8e"/>
@@ -102,7 +102,7 @@
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAw-s8-vPe">
-                                                <frame key="frameInset" minX="389" width="339" height="50"/>
+                                                <frame key="frameInset" minX="369" width="359" height="50"/>
                                                 <color key="backgroundColor" red="0.0039215686269999999" green="0.76078431369999999" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="Bpk-XD-OJg"/>
@@ -113,6 +113,7 @@
                                                 </state>
                                             </button>
                                         </subviews>
+                                        <variation key="heightClass=regular-widthClass=compact" axis="vertical"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q6I-tP-53V">
                                         <frame key="frameInset" minY="904" width="728" height="21"/>
